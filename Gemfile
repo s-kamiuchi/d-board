@@ -52,5 +52,5 @@ end
 gem 'pry-byebug', group: :development
 
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 0.19.0'
 end
